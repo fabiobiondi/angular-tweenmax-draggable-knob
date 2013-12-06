@@ -56,3 +56,6 @@ function MainCtrl($scope) {
    }
 }
 ```
+
+#### IMPORTANT
+This is a proof of concept and a lot of improvements can be done in order to complete the directive and support all the Tweenmax Draggable methods and events.
