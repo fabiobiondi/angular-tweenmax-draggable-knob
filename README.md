@@ -4,7 +4,7 @@ AngularJS HTML5 Fullscreen
 AngularJS directive to use the Tweenmax Draggable Plugin (type: rotation)
 
 ## Example
-Live demo: COMING SOON
+Live demo: http://www.fabiobiondi.com/demo/github/angular-tweenmax-draggable-knob/demo
 
 ## Usage
 Add AngularJS and angular-tweebmax-draggable-knob.js  to your main file (index.html)
