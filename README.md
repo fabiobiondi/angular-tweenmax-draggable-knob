@@ -3,7 +3,7 @@ AngularJS Tweenmax Draggable Knob
 
 A directive to use the [Tweenmax Draggable Plugin ](http://www.greensock.com/draggable/ "Tweenmax Draggable Plugin ") (type: rotation) in your AngularJS applications.
 
-
+![alt text](http://www.fabiobiondi.com/demo/github/angular-tweenmax-draggable-knob/demo/imgs/knob.png "")
 
 
 ## Example
