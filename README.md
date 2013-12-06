@@ -11,7 +11,6 @@ Live demo: http://www.fabiobiondi.com/demo/github/angular-tweenmax-draggable-kno
 
 ## Usage
 Add AngularJS and angular-tweebmax-draggable-knob.js  to your main file (index.html)
-	
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
 <script src="../src/angular-tweebmax-draggable-knob.js"></script>
@@ -19,10 +18,10 @@ Add AngularJS and angular-tweebmax-draggable-knob.js  to your main file (index.h
 
 
 Set `FBAngular` as a dependency in your module:
-
 ```javascript
 var app = angular.module('YourApp', ['FBAngular'])
 ```
+
 
 ## USAGE
 
@@ -37,6 +36,7 @@ html:
 ```
 The only requirement is to set a different ID to all elements that you will flag as `fullscreen`.
 
+***
 
 Controller:
 ```javascript
