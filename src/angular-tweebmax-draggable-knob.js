@@ -19,7 +19,7 @@ directive("tmaxKnob", function () {
             // throwProps (ONLY TWEENMAX PREMIUM): enables kinetic-based flicking (continuation of movement, decelerating after releasing the mouse/finger)
             throwProps: false, 
 
-            onDrag  : function (data){
+            onDrag  : function (){
 
                scope.rotation = this.rotation;
                
@@ -29,7 +29,7 @@ directive("tmaxKnob", function () {
 
             },
             
-            onDragEnd : function (endValue){
+            onDragEnd : function (){
 
                scope.rotation = this.rotation;
 
