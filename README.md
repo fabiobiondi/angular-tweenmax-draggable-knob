@@ -34,9 +34,6 @@ html:
      on-drag="onDrag(rotation)"
      style="-webkit-user-select: none;">
 ```
-The only requirement is to set a different ID to all elements that you will flag as `fullscreen`.
-
-***
 
 Controller:
 ```javascript
