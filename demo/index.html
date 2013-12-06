@@ -1,0 +1,34 @@
+<!doctype html>
+<html  lang="en">
+
+<head>
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.js"></script>
+
+	<script src="app.js"></script>		
+	<script src="../src/angular-tweebmax-draggable-knob.js"></script>
+</head>
+
+
+<body ng-app="DemoApp">
+
+	<h1>AngularJS-Tweenmax Knob</h1>
+	<h3>Based on <a href="http://www.greensock.com/draggable/" target="_blank">Tweenmax Draggable</a></h3>
+
+	<div ng-controller="MainCtrl">
+
+		<h1>Rotation: {{ currentRotation | number:0}} - Loops: {{ currentRotation/360 | number:0}}</h1>
+
+		<img tmax-knob
+			 src="imgs/knob.png"
+			 width="410" height="410" 			 
+			 on-drag-end="onDragEnd(rotation)"
+			 on-drag="onDrag(rotation)"
+			 style="-webkit-user-select: none;">
+		
+	</div>
+
+</body>
+</html>
