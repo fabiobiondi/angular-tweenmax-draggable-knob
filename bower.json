@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git://github.com/fabiobiondi/angular-tweenmax-draggable-knob"
   },
-  "main": "./src/angular-tweebmax-draggable-knob.js",
+  "main": "./src/angular-tweenmax-draggable-knob.js",
   "keywords": [
     "knob",
     "draggable",
