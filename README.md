@@ -1,7 +1,6 @@
-AngularJS HTML5 Fullscreen 
-=======
+AngularJS Tweenmax Draggable Knob
 
-AngularJS directive to use the Tweenmax Draggable Plugin (type: rotation)
+A directive to use the Tweenmax Draggable Plugin (type: rotation) in your AngularJS applications.
 
 ## Example
 Live demo: http://www.fabiobiondi.com/demo/github/angular-tweenmax-draggable-knob/demo
@@ -34,8 +33,6 @@ html:
 ```
 The only requirement is to set a different ID to all elements that you will flag as `fullscreen`.
 
-
-## Fullscreen Service
 
 Controller:
 ```javascript
